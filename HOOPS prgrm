@@ -1,0 +1,37 @@
+country="INDIA"
+class ace:
+  col="ACE COLLEGE"
+  def give_details(self,a,b,c,d):
+      self.tot=a+b+c 
+      self.name=d 
+  def display(self):
+      print("1.NAME :",self.name)
+      print("2.MARKS :",self.tot)
+      print("3.COLLEGE :",ace.col)
+      print("4.COUNTRY: ",country)
+
+
+class bvrit:
+    col="BVRIT COLLEGE"
+    def set_dim(self,a,b,c):
+        self.tot=a+b
+        self.name=c 
+    def show(self):
+      print("1.NAME :",self.name)
+      print("2.MARKS :",self.tot)
+      print("3.COLLEGE :",bvrit.col)
+      print("4.COUNTRY: ",country)
+
+
+a=ace()
+a2=ace()
+b=bvrit()
+b2=bvrit()
+a.give_details(40,50,60,"RAJKUMAR")
+a2.give_details(20,30,40,"SRUJAN")
+b.set_dim(10,20,"SHIVAKRISHNA")
+b2.set_dim(15,25,"NIKHIL")
+a.display()
+a2.display()
+b.show()
+b2.show()
