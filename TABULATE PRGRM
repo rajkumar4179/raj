@@ -5,3 +5,4 @@ data=[["Raj",21,"Mech"],
      ["Arun",55,"Civil"],
      ["Ashok",43,"IT"]]
 res=tabulate(data,headers=title,tablefmt="pretty")
+print(res)
