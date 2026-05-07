@@ -1,0 +1,9 @@
+a=int(input("Enter any num1: "))
+b=int(input("Enter any num2: "))
+c=int(input("Enter any num3: "))
+lst1 = [int(i) for i in str(a)]
+lst2 = [int(i) for i in str(b)]
+lst3 = [int(i) for i in str(c)]
+sum1=(lis1)max(lis2)max(lis3)
+sum2=(lis
+print()
